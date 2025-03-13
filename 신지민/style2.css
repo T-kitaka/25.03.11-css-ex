@@ -1,0 +1,74 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: blue;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    position: relative; /*자식 요소의 절대 위치를 기준으로 설정*/
+    height: 3em;
+}
+
+.nav{
+    background-color: red;
+    width: 90%;
+    height: 3em;
+    align-self: center; /*요소 가운데 정렬*/
+    position: absolute; /*자식 요소를 절대 위치로 설정*/
+    bottom: 0; /*맨 아래로 내리기*/
+}
+
+.aside{
+    background-color: blanchedalmond;
+    width: 15em;
+    height: 35em;
+    float: right;
+}
+
+.article{ 
+    width: 85%;
+    height: 30%;
+    top: 20%;
+    left: 20%;
+}
+
+.area1{
+    background-color:greenyellow !important;
+}
+.area2{
+    background-color: pink !important;
+}
+.area3{
+    background-color: aqua !important;
+}
+
+.center-block{
+    display: block;
+}
+
+.section{
+    background-color: green;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h1{
+    text-align: left;
+    width: 100%;
+}
+
+.h1{
+    text-align: left;
+}
+
+.footer{
+    background-color: blueviolet;
+    padding-bottom: 1em;
+    clear: both; 
+    /* clear는 float에 영향을 받지 않게 하는 속성*/
+}
